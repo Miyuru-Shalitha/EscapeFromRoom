@@ -6,7 +6,7 @@
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("2_doueb")]
-position = Vector2(608, 316)
+position = Vector2(1072, 288)
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
@@ -32,7 +32,7 @@ position = Vector2(736, 270)
 enabled = false
 
 [node name="Level4" type="Camera2D" parent="DebugCameras"]
-position = Vector2(1056, 270)
+position = Vector2(1064, 280)
 
 [node name="Level5" type="Camera2D" parent="DebugCameras"]
 visible = false
