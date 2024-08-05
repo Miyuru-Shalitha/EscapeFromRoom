@@ -29,7 +29,7 @@ func _physics_process(delta):
 		else:
 			animated_sprite.play("run")
 	else :
-		animated_sprite.play("jump")		
+		animated_sprite.play("stop")		
 		
 	#flip the sprite
 	if direction > 0:

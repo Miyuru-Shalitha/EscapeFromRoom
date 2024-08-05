@@ -80,6 +80,6 @@ shape = SubResource("CapsuleShape2D_nlxmm")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_h1wpv")
-animation = &"stop"
+animation = &"jump"
 autoplay = "run"
 speed_scale = 1.4
