@@ -8,6 +8,7 @@ size = Vector2(8, 16)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_mkxs4")
+jump_velocity = -300.0
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
