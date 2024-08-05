@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://r3xe108pdhij"]
+[gd_scene load_steps=3 format=3 uid="uid://r3xe108pdhij"]
 
 [ext_resource type="TileSet" uid="uid://b4ivhxobrwmpc" path="res://tilesets/brick_tile_sets.tres" id="1_rlqdf"]
+[ext_resource type="PackedScene" uid="uid://jwvd5on00die" path="res://subscenes/player.tscn" id="2_doueb"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_doueb")]
+position = Vector2(63, 135)
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
